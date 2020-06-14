@@ -13,6 +13,7 @@ class Processes {
 public:
     Processes();
     ~Processes();
+    bool fetch_processes();
 private:
 };
 

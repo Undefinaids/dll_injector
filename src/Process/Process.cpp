@@ -8,7 +8,6 @@ Process::Process(LPPROCESSENTRY32 lppe): _lppe(lppe) {
 }
 
 Process::~Process() {
-
 }
 
 const char * Process::getName() const {

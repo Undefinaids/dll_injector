@@ -4,8 +4,9 @@
 
 #include "Processes/Processes.h"
 
-int main( void )
-{
-    Processes Processes;
+int main(void) {
+    Processes processes;
+
+    processes.fetch_processes();
     return 0;
 }
