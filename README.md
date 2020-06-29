@@ -1,7 +1,11 @@
 # dll_injector
 
-Dll injector for windows
+Dll injector for windows.
 
-(Using Reflective injection, copying the dll from the memory instead disk)
+Thanks to Wikipedia [DLL_injection](https://en.wikipedia.org/wiki/DLL_injection)
 
-Work in progress
+## Different ways of improvement
+* Add argument gestion ?
+* Handle the unload library 
+* Replace the call to loadlibrary by a Reflective injection (https://github.com/stephenfewer/ReflectiveDLLInjection)
+* GUI ?
